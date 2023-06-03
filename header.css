@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:wght@400;600&family=Cutive+Mono&display=swap');
+
+header {
+    margin: 0px;
+    /* padding-top: 10px; */
+    /* padding-left: 20px; */
+    width: 100vw;
+    height: 60px;
+    /* background-color: red; */
+    border-bottom: 4px black solid;
+    /* font-family: 'Crimson Text', serif; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-text {
+    padding-left: 20px;
+}
+
+.header-text {
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+}
+.header-sub-text {
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.header-nav {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+}
+
+.header-link {
+    margin: 0px;
+}

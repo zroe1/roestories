@@ -1,0 +1,51 @@
+main {
+    width: 70vw;
+    margin-left: 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+.images {
+    padding-top: 10px;
+    position: relative;
+    width: 37vw;
+    height: 400px;
+    /* background-color: blue; */
+}
+
+.public-policy {
+    width: 30vw;
+    height: 400px;
+    /* background-color: red; */
+}
+
+.home-img {
+    width: 37vw;
+}
+
+.main-discription {
+    margin-top: 10px;
+}
+
+
+/* OLD CODE */
+/* 
+.home3 {
+    width: 22vw;
+    border-radius: 50%;
+    position:absolute;
+    top: 24vw;
+    right: 20vw;
+    z-index: -1;
+}
+
+.home1 {
+    width: 30vw;
+    border-radius: 50%;
+}
+.home2 {
+    width: 15vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 20vw;
+    right: 0px;
+} */

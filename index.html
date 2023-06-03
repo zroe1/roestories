@@ -4,11 +4,127 @@
     <meta charset="utf-8">
     <title>Roe Stories</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <link rel="stylesheet" type="text/css" href="homearticles.css" >
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
+    
   </head>
   <body>
-    <h1 style="font-family: 'Sofia Sans', sans-serif;">Sam Roe. Genius. Journalist. Father.</h1>
+    <header>
+        <!-- <div class="title-block"> -->
+            <h1 class="top-text">
+                <span class="header-text">Roe Stories:</span>
+                <span class="header-sub-text">a collection of the journalism of Sam Roe.</span>
+            </h1>
+            <nav class="header-nav">
+                <p class="header-link">Home</p>
+                <p class="header-link">About</p>
+                <p class="header-link">All Stories</p>
+            </nav>
+        <!-- </div> -->
+    </header>
+    <menu class="story-types">
+        <div class="horizontal-line"></div>
+        <div class="links">
+            <a class="menu-link">Police Shootings</a>
+            <a class="menu-link">Government</a>
+            <a class="menu-link">Public Policy</a>
+            <a class="menu-link">Investigations</a>
+            <a class="menu-link">Other</a>
+        </div>
+        <div class="horizontal-line"></div>
+      </menu>
+      <main>
+        <div class="images">
+            <img class="homeImg home-img" src="homesamroe.jpg" alt="">
+            <img class="homeImg home-img" src="samroe4.png" alt="">
+            <img class="homeImg home-img" src="samroe5.png" alt="">
+            <caption>
+                <p class="main-discription">
+                    This is Sam Roe. He is a human being who resides on planet
+                    earth. He likes to discuss the socio-economical state of the
+                    world and not silly things like pop music. He is fun.
+                </p>
+            </caption>
+
+            <!-- <div class="government"> -->
+            <div class="home-section government">
+                <h2 class="article-header">Government</h2>
+                <section class="home-article">
+                    <div class="home-article-horizontal-line"></div>
+                    <img class="home-article-img extra-margin" src="publicpolicy/publicpolicy3.png" alt="">
+                    <caption>
+                        <p class="date">June 41, 1389</p>
+                        <p class="discription">
+                            There's 104 days of summer vaction and school comes
+                            along just to end it; so the annual problem of our
+                            generation is finding a good way to spend it...
+                        </p>
+                    </caption>
+                </section>
+            </div>
+            <!-- </div> -->
+            <!-- OLD CODE -->
+            <!-- <img class="home3"src="samroe2.png" alt="">
+            <img class="home1"src="samroe.png" alt="">
+            <img class="home2"src="samroe1.png" alt=""> -->
+        </div>
+        <div class="public-policy">
+            <div class="home-section">
+                <h2 class="article-header">Public Policy</h2>
+                <section class="home-article">
+                    <div class="home-article-horizontal-line"></div>
+                    <img class="home-article-img" src="publicpolicy/publicpolicy1.png" alt="">
+                    <caption>
+                        <p class="date">June 41, 1389</p>
+                        <p class="discription">
+                            There's 104 days of summer vaction and school comes
+                            along just to end it; so the annual problem of our
+                            generation is finding a good way to spend it...
+                        </p>
+                    </caption>
+                </section>
+                <section class="home-article">
+                    <div class="home-article-horizontal-line"></div>
+                    <img class="home-article-img" src="publicpolicy/publicpolicy2.png" alt="">
+                    <caption>
+                        <p class="date">October 1, 1009</p>
+                        <p class="discription">
+                            Like maybe building a rocket or fighting a mummy or
+                            climbing up the eiffel tower, dicovering something
+                            that doesn't exist or giving a monkey a shower
+                            DUH DUH DUH
+                        </p>
+                    </caption>
+                </section>
+            </div>
+        </div>
+      </main>
   </body>
+  <script>
+
+    var slideIndex = 0;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+    showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("homeImg");
+    if (n > x.length) {slideIndex = 1}
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+    setTimeout(showDivs, 3000);
+    }
+  </script>
 </html>
