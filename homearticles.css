@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:wght@600&family=Cutive+Mono&display=swap');
 
 .home-section {
-    width: 100%
+    width: 23vw;
 }
 .article-header {
     font-family: 'Crimson Text', serif;
@@ -21,11 +21,6 @@
 .home-article-img {
     width: 100%;
 }
-
-/* .extra-margin {
-    margin: 10px;
-    width: calc(100% - 20px)
-} */
 
 .government {
     width: 34vw;
