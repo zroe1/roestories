@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:wght@600&family=Cutive+Mono&display=swap');
 
 .home-section {
-    width: 23vw;
+    width: 22vw;
 }
 .article-header {
     font-family: 'Crimson Text', serif;
@@ -27,12 +27,31 @@
     margin-left: 3vw;
 }
 
-.date {
-    margin: 2px;
+.author-name {
     font-family: 'Crimson Text', serif;
     font-weight: bold;
 }
 
+.article-credit {
+    margin: 7px 2px 5px 2px;
+}
+
+.article-title {
+    margin: 2px 2px 0px 2px;
+    font-family: 'Crimson Text', serif;
+    /* font-weight: 400; */
+    font-size: 22px;
+}
+.article-link {
+    text-decoration: None;
+    color: black;
+}
+
+.article-link:hover {
+    text-decoration: underline;
+}
+
 .discription {
-    margin-top: 2px;
+    margin: 5px 2px 2px 2px;
+    font-size: 15px;
 }

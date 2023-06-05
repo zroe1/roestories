@@ -37,8 +37,9 @@
 }
 
 .bottom-container {
-    width: 72vw;
-    margin-left: 14vw;
+    width: 70vw;
+    padding-top: 5px;
+    margin-left: 15vw;
     display: flex;
     justify-content: space-between;
 }
