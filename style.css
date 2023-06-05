@@ -8,3 +8,32 @@ h1 {
     padding: 0px;
     margin: 0px;
 }
+
+.img1 {
+    opacity: 100%;
+}
+.img2 {
+    opacity: 0%;
+}
+.img3 {
+    opacity: 0%;
+}
+
+.fadeOut {
+    /* border: red 5px solid; */
+    animation: openA1 3s forwards;
+}
+
+.fadeIn {
+    /* border: blue 5px solid; */
+    animation: OpenA2 3s forwards;
+}
+@keyframes openA1 {
+    0% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+@keyframes OpenA2 {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}

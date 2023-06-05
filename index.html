@@ -32,9 +32,9 @@
       <main>
         <div class="top-container">
             <div class="images">
-                <img class="homeImg home-img" src="roestories_imgs/homepage11.png" alt="">
-                <img class="homeImg home-img" src="roestories_imgs/homepage2.jpg" alt="">       
-                <img class="homeImg home-img" src="roestories_imgs/homepage3.png" alt="">
+                <img class="homeImg home-img img1" src="roestories_imgs/homepage11.png" alt="">
+                <img class="homeImg home-img img2" src="roestories_imgs/homepage2.jpg" alt="">       
+                <img class="homeImg home-img img3" src="roestories_imgs/homepage3.png" alt="">
             </div>
             <div class="side-bar">
                 <h1 class="title-text">Roe Stories</h1>
@@ -67,23 +67,6 @@
                         <p class="article-credit"><span class="author-name">Sam Roe -</span> June 41, 1389</p>
                     </caption>
                 </section>
-                <section class="home-article">
-                    <div class="home-article-horizontal-line"></div>
-                    <img class="home-article-img extra-margin" src="publicpolicy/publicpolicy1.png" alt="">
-                    <caption>
-                        <h2 class="article-title">
-                            <a href="https://www.w3schools.com" class="article-link">
-                                Chicago moves closer to easing pharmacist workload
-                            </a>
-                        </h2>
-                        <p class="discription">
-                            A proposal that would set limits on pharmacist 
-                            workloads in a bid to improve consumer safety 
-                            was advanced Tuesday by a Chicago City Council committee.
-                        </p>
-                        <p class="article-credit"><span class="author-name">Ray Long and Sam Roe -</span> June 41, 1389</p>
-                    </caption>
-                </section>
             </div>
             <div class="home-section">
                 <h2 class="article-header">Police Corruption</h2>
@@ -102,24 +85,6 @@
                             was advanced Tuesday by a Chicago City Council committee.
                         </p>
                         <p class="article-credit"><span class="author-name">Ray Long and Sam Roe -</span> June 41, 1389</p>
-                    </caption>
-                </section>
-                <section class="home-article">
-                    <div class="home-article-horizontal-line"></div>
-                    <img class="home-article-img extra-margin" src="publicpolicy/publicpolicy3.png" alt="">
-                    <caption>
-                        <h2 class="article-title">
-                            <a href="https://www.w3schools.com" class="article-link">
-                                Inside Chicago's worst nursing home: bug bites, bruises and death
-                            </a>
-                        </h2>
-                        <p class="discription">
-                            In a city with dozens of subpar nursing homes, 
-                            Wentworth Rehab stands out as the worst, according 
-                            to a Chicago Tribune review of evaluations by the 
-                            government.
-                        </p>
-                        <p class="article-credit"><span class="author-name">Sam Roe -</span> June 14, 2018</p>
                     </caption>
                 </section>
             </div>
@@ -143,30 +108,13 @@
                         <p class="article-credit"><span class="author-name">Sam Roe -</span> June 14, 2018</p>
                     </caption>
                 </section>
-                <section class="home-article">
-                    <div class="home-article-horizontal-line"></div>
-                    <img class="home-article-img extra-margin" src="publicpolicy/publicpolicy2.png" alt="">
-                    <caption>
-                        <h2 class="article-title">
-                            <a href="https://www.w3schools.com" class="article-link">
-                                Testing cellphones for radiofrequency radiation: How we did it
-                            </a>
-                        </h2>
-                        <p class="discription">
-                            Over the past year, the Chicago Tribune hired RF 
-                            Exposure Lab in San Marcos, Calif., to measure 11 
-                            different cellphone models for radiofrequency 
-                            radiation. Here's how the testing unfolded.
-                        </p>
-                        <p class="article-credit"><span class="author-name">Sam Roe -</span> June 41, 1389</p>
-                    </caption>
-                </section>
             </div>
         </div>
       </main>
   </body>
   <script>
     var slideIndex = 0;
+    var iteration = 0;
     showDivs(slideIndex);
 
     function plusDivs(n) {
@@ -174,16 +122,43 @@
     }
 
     function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("homeImg");
-    if (n > x.length) {slideIndex = 1}
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1}
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    x[slideIndex-1].style.display = "block";
-    setTimeout(showDivs, 3000);
+        if (iteration == 0) {
+            iteration++;
+            setTimeout(showDivs, 3000);
+        } else {
+            var i;
+            var x = document.getElementsByClassName("homeImg");
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            console.log(slideIndex - 1)
+        
+            if (slideIndex == x.length) {
+                x[2].classList.remove("fadeIn");
+                x[2].classList.add("fadeOut");
+                x[0].classList.remove("fadeOut");
+                x[0].classList.add("fadeIn");
+                console.log("here")
+            } else if (slideIndex == 1) {
+                x[0].classList.add("fadeOut");
+                x[0].classList.remove("fadeIn");
+                x[1].classList.remove("fadeOut");
+                x[1].classList.add("fadeIn");
+            } else if (slideIndex == 2) {
+                x[1].classList.remove("fadeIn");
+                x[1].classList.add("fadeOut");
+                x[2].classList.remove("fadeOut");
+                x[2].classList.add("fadeIn");
+            } else {
+                console.log("we have  aproblem")
+            }
+            setTimeout(showDivs, 5000);
+        }
+
+        // if (slideIndex == x.length) {
+        //     x[0].classList.add("fadeIn");
+        // } else {
+        //     x[slideIndex].classList.add("fadeIn");
+        // }
     }
   </script>
 </html>
