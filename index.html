@@ -35,6 +35,9 @@
                 <img class="homeImg home-img img1" src="roestories_imgs/homepage11.png" alt="">
                 <img class="homeImg home-img img2" src="roestories_imgs/homepage2.jpg" alt="">       
                 <img class="homeImg home-img img3" src="roestories_imgs/homepage3.png" alt="">
+                <img class="homeImg home-img img3" src="roestories_imgs/homepage4.png" alt="">
+                <img class="homeImg home-img img3" src="roestories_imgs/homepage5.png" alt="">
+                <img class="homeImg home-img img3" src="roestories_imgs/homepage6.png" alt="">
             </div>
             <div class="side-bar">
                 <h1 class="title-text">Roe Stories</h1>
@@ -133,24 +136,31 @@
             console.log(slideIndex - 1)
         
             if (slideIndex == x.length) {
-                x[2].classList.remove("fadeIn");
-                x[2].classList.add("fadeOut");
+                x[slideIndex - 1].classList.remove("fadeIn");
+                x[slideIndex - 1].classList.add("fadeOut");
                 x[0].classList.remove("fadeOut");
                 x[0].classList.add("fadeIn");
                 console.log("here")
-            } else if (slideIndex == 1) {
-                x[0].classList.add("fadeOut");
-                x[0].classList.remove("fadeIn");
-                x[1].classList.remove("fadeOut");
-                x[1].classList.add("fadeIn");
-            } else if (slideIndex == 2) {
-                x[1].classList.remove("fadeIn");
-                x[1].classList.add("fadeOut");
-                x[2].classList.remove("fadeOut");
-                x[2].classList.add("fadeIn");
             } else {
-                console.log("we have  aproblem")
-            }
+                x[slideIndex - 1].classList.add("fadeOut");
+                x[slideIndex - 1].classList.remove("fadeIn");
+                x[slideIndex].classList.remove("fadeOut");
+                x[slideIndex].classList.add("fadeIn");
+            } 
+
+            // else if (slideIndex == 1) {
+            //     x[slideIndex - 1].classList.add("fadeOut");
+            //     x[slideIndex - 1].classList.remove("fadeIn");
+            //     x[slideIndex].classList.remove("fadeOut");
+            //     x[slideIndex].classList.add("fadeIn");
+            // } else if (slideIndex == 2) {
+            //     x[slideIndex - 1].classList.remove("fadeIn");
+            //     x[slideIndex - 1].classList.add("fadeOut");
+            //     x[slideIndex].classList.remove("fadeOut");
+            //     x[slideIndex].classList.add("fadeIn");
+            // } else {
+            //     console.log("we have  aproblem")
+            // }
             setTimeout(showDivs, 5000);
         }
 
