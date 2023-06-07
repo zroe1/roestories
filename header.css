@@ -39,7 +39,7 @@ header {
   margin: 0px;
 }
 
-.mobile-title-text {
+#mobile-title-text {
   display: none;
   font-family: 'Crimson Text', serif;
   font-size: 6vw;
@@ -59,7 +59,7 @@ header {
   .header-link {
     display: none;
   }
-  .mobile-title-text {
+  #mobile-title-text {
     display: block;
   }
   header {
@@ -70,7 +70,7 @@ header {
   header {
     height: 12vw;
   }
-  .mobile-title-text {
+  #mobile-title-text {
     font-size: 10vw;
   }
 }
@@ -79,12 +79,16 @@ header {
   .header-link {
     display: none;
   }
+  /* #mobile-title-text {
+    background-color: blue;
+    font-size: 43m;
+  } */
   header {
-    height: 12vw;
+    height: 10em;
     display: block;
   }
-  .mobile-title-text {
+  #mobile-title-text {
     display: block;
-    font-size: 10vw;
+    font-size: 8em;
   }
 }
