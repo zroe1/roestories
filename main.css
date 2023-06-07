@@ -83,7 +83,7 @@
         flex-direction: column;
     }
     .mobile-discription {
-        font-size: 2.2em;
+        font-size: 2.8em;
         width: 80vw;
         margin-left: 10vw;
         display: block;
@@ -95,6 +95,12 @@
     }
     .home-section {
         width: 100%;
+    }
+}
+
+@media only screen and (max-device-width: 400px) {
+    .mobile-discription {
+        font-size: 2.2em;
     }
 }
 /* .government {

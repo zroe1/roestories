@@ -60,6 +60,7 @@ header {
     display: none;
   }
   #mobile-title-text {
+    padding-left: 20px;
     display: block;
   }
   header {
@@ -88,7 +89,9 @@ header {
     display: block;
   }
   #mobile-title-text {
+    padding-left: 20px;
     display: block;
     font-size: 8em;
   }
 }
+
