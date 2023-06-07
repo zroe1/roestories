@@ -98,11 +98,11 @@
     }
 }
 
-@media only screen and (max-device-width: 400px) {
+/* @media only screen and (max-device-width: 400px) {
     .mobile-discription {
         font-size: 2.2em;
     }
-}
+} */
 /* .government {
     width: 25vw;
 } */
