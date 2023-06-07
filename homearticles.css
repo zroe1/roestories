@@ -80,3 +80,27 @@
     color: white;
     border-radius: 2px;
 }
+
+@media only screen and (max-device-width: 600px) {
+    .home-section {
+        width: 100%;
+    }
+    .article-header {
+        font-size: 5vw;
+    }
+    .extra-margin {
+        margin-top: 16px;
+    }
+    .article-title {
+        font-size: 4vw;
+    }
+    #secondary-article {
+        font-size: 3vw;
+    }
+    p {
+        font-size: 2.75vw;
+    }
+    .discription {
+        font-size: 2.75vw;
+    }
+}

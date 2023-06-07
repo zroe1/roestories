@@ -83,6 +83,7 @@
         flex-direction: column;
     }
     .mobile-discription {
+        font-size: 2.75vw;
         width: 80vw;
         margin-left: 10vw;
         display: block;
