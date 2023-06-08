@@ -81,6 +81,12 @@
     border-radius: 2px;
 }
 
+.view-all:hover {
+    border: solid black 1px;
+    background: white;
+    color: black;
+}
+
 @media only screen and (max-device-width: 600px) {
     .view-all {
         font-size: 2.8em;
