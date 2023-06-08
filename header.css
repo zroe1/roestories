@@ -49,6 +49,28 @@ header {
   /* line-height: 90%; */
 }
 
+.mobile-menu {
+  display: none;
+}
+.mobile-menu-line {
+  height: 3px;
+  width: 90%;
+  margin-left: 5%;
+  background-color: black;
+}
+.top {
+  position: absolute;
+  top: 25%;
+}
+.mid {
+  position: absolute;
+  top: 50%;
+}
+.low {
+  position: absolute;
+  top: 75%;
+}
+
 @media only screen and (max-width: 1000px) {
   .header-link {
     font-size: 14px;
@@ -58,6 +80,15 @@ header {
 @media only screen and (max-width: 850px) {
   .header-link {
     display: none;
+  }
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    right: 1vw;
+    top: 0.5vw;
+    width: 6vw;
+    height: 6vw;
+    /* background-color: blue; */
   }
   #mobile-title-text {
     padding-left: 20px;
@@ -73,6 +104,13 @@ header {
   }
   #mobile-title-text {
     font-size: 10vw;
+  }
+  .mobile-menu {
+    /* right: 1vw; */
+    top: 1vw;
+    width: 10vw;
+    height: 10vw;
+    /* background-color: blue; */
   }
 }
 
@@ -92,6 +130,18 @@ header {
     padding-left: 20px;
     display: block;
     font-size: 8em;
+  }
+  .mobile-menu-line {
+    height: 5px;
+  }
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    right: 1em;
+    top: 2em;
+    width: 6em;
+    height: 6em;
+    /* background-color: blue; */
   }
 }
 
