@@ -16,13 +16,14 @@ header {
 
 .header-text {
     font-family: 'Crimson Text', serif;
+    font-weight: 600;
     font-size: 30px;
 }
-.header-sub-text {
+/* .header-sub-text {
     font-family: 'Crimson Text', serif;
     font-size: 30px;
     font-weight: 400;
-}
+} */
 
 .header-nav {
     height: 50px;
@@ -42,6 +43,7 @@ header {
 #mobile-title-text {
   display: none;
   font-family: 'Crimson Text', serif;
+  font-weight: 600;
   font-size: 6vw;
   width: 100vw;
   margin: 1px;

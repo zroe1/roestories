@@ -51,6 +51,9 @@
 .mobile-discription {
     display: none;
 }
+.desktop-discription {
+    font-size: 18px;
+}
 
 @media only screen and (max-width: 1100px) {
     .title-text {
@@ -83,7 +86,7 @@
         flex-direction: column;
     }
     .mobile-discription {
-        font-size: 2.8em;
+        font-size: 3em;
         width: 85vw;
         margin-left: 7.5vw;
         margin-bottom: 0.5em;
