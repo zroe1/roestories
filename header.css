@@ -234,5 +234,6 @@ header {
 
 .mobile-menu-link {
   margin: 0px;
-  font-size: 2.8em;
+  font-size: 3.0em;
+  font-weight: 600;
 }
