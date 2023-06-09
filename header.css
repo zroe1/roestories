@@ -74,29 +74,69 @@ header {
   top: 75%;
 }
 
-.testA {
-  /* display:none; */
-  /* background-color: blue; */
-  animation: testA1 1s forwards;
+.menuAnimate1 {
+  animation: menuBoxAnimate1 1s forwards;
 }
 
-.testB {
-  animation: testA2 1s forwards;
+.menuAnimate2 {
+  animation: menuBoxAnimate2 1s forwards;
 }
 
-@keyframes testA1 {
+.menuAnimate3 {
+  animation: menuBoxAnimate3 0.7s forwards;
+}
+
+.menuAnimate4 {
+  animation: menuBoxAnimate4 0.7s forwards;
+}
+.menuAnimate5 {
+  animation: menuBoxAnimate5 0.7s forwards;
+}
+
+@keyframes menuBoxAnimate1 {
   50% {top: 50%;}
   100% {
     top: 50%;
     transform: rotate(45deg);
   }
 }
-@keyframes testA2 {
+@keyframes menuBoxAnimate2 {
   50% {top: 50%;}
   100% {
     top: 50%;
     transform: rotate(-45deg);
   }
+}
+
+@keyframes menuBoxAnimate3 {
+  0% {
+    top: 50%;
+    transform: rotate(-45deg)
+  }
+  50% {top: 50%;}
+  100% {
+    top: 75%;
+    /* transform: rotate(45deg) */
+  }
+}
+@keyframes menuBoxAnimate4 {
+  0% {
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  50% {top: 50%;
+    transform: rotate(0deg);}
+  100% {top: 50%;
+    transform: rotate(0deg);}
+}
+@keyframes menuBoxAnimate5 {
+  0% {
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  50% {top: 50%;
+    transform: rotate(-0deg);}
+  100% {top: 25%;}
 }
 
 @media only screen and (max-width: 1000px) {
@@ -173,3 +213,26 @@ header {
   }
 }
 
+.mobile-dropdown {
+  display: none;
+  width: 100vw;
+  height: calc(100vh - 10em);
+  /* background-color: blue; */
+  /* position: absolute; */
+  /* top: 53px; */
+}
+.inner-mobile-dropdown {
+  width: 100vw;
+  /* max-height: 100%; */
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mobile-menu-link {
+  margin: 0px;
+  font-size: 2.8em;
+}

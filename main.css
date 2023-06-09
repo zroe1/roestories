@@ -103,6 +103,14 @@
     
 }
 
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
 /* @media only screen and (max-device-width: 400px) {
     .mobile-discription {
         font-size: 2.2em;
