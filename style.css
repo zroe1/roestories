@@ -38,9 +38,15 @@ h1 {
 .mobile-only {
   display: none;
 }
+.desktop-only {
+  display: block;
+}
 
 @media only screen and (max-device-width: 600px) {
   .mobile-only {
     display: block;
+  }
+  .desktop-only {
+    display: none;
   }
 }
