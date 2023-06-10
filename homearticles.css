@@ -1,147 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:wght@600&family=Cutive+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
 .home-section {
-    width: 22vw;
+  width: 22vw;
 }
 .article-header {
-    font-family: 'Crimson Text', serif;
-    font-weight: 700;
-    font-size: 28px;
-    margin-top: 7px;
-    margin-bottom: 0px;
+  font-family: 'Crimson Text', serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 7px;
+  margin-bottom: 0px;
 }
 
 .extra-margin {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 .home-article-horizontal-line {
-    width: 100%;
-    height: 1px;
-    background-color: black;
-    margin-top: 4px;
-    margin-bottom: 4px;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .home-article-img {
-    width: 100%;
+  width: 100%;
 }
 
 .government {
-    width: 34vw;
-    margin-left: 3vw;
+  width: 34vw;
+  margin-left: 3vw;
 }
 
 .author-name {
-    font-family: 'Crimson Text', serif;
-    font-weight: bold;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
 }
 
 .article-credit {
-    margin: 7px 2px 5px 2px;
+  margin: 7px 2px 5px 2px;
 }
 
 .article-title {
-    margin: 2px 2px 0px 2px;
-    font-family: 'Crimson Text', serif;
-    /* font-weight: 400; */
-    font-size: 22px;
-    line-height: 100%;
+  margin: 2px 2px 0px 2px;
+  font-family: 'Crimson Text', serif;
+  font-size: 22px;
+  line-height: 100%;
 }
 .article-link {
-    text-decoration: None;
-    color: black;
+  text-decoration: None;
+  color: black;
 }
 
 .article-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #secondary-article {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .other-story {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .discription {
-    margin: 5px 2px 2px 2px;
-    font-size: 15px;
+  margin: 5px 2px 2px 2px;
+  font-size: 15px;
 }
 
 .view-all {
-    font-family: 'Crimson Text', serif;
-    font-size: 15px;
-    margin: 5px;
-    padding: 3px;
-    width: 110px;
-    height: 30px;
-    border: solid black 1px;
-    background: black;
-    color: white;
-    border-radius: 2px;
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
+  margin: 5px;
+  padding: 3px;
+  width: 110px;
+  height: 30px;
+  border: solid black 1px;
+  background: black;
+  color: white;
+  border-radius: 2px;
 }
 
 .view-all:hover {
-    border: solid black 1px;
-    background: white;
-    color: black;
+  border: solid black 1px;
+  background: white;
+  color: black;
 }
 
 @media only screen and (max-device-width: 600px) {
-    .view-all {
-        font-size: 2.8em;
-        width: 5em;
-        height: 2em;
-        /* border-radius: 8px; */
-        margin-top: 20px;
-        margin-bottom: 30px;
+  .view-all {
+    font-size: 2.8em;
+    width: 5em;
+    height: 2em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 
-    }
-    .home-section {
-        width: 100%;
-    }
-    .article-header {
-        font-size: 4.9em;
-    }
-    .extra-margin {
-        margin-top: 16px;
-    }
-    .article-title {
-        font-size: 4.1em;
-    }
-    #secondary-article {
-        font-size: 3.6em;
-    }
-    p {
-        font-size: 2.8em;
-    }
-    .discription {
-        font-size: 2.8em;
-    }
+  .home-section {
+    width: 100%;
+  }
+
+  .article-header {
+    font-size: 4.9em;
+  }
+
+  .extra-margin {
+    margin-top: 16px;
+  }
+
+  .article-title {
+    font-size: 4.1em;
+  }
+
+  #secondary-article {
+    font-size: 3.6em;
+  }
+
+  p {
+    font-size: 2.8em;
+  }
+
+  .discription {
+    font-size: 2.8em;
+  }
+
 }
-
-/* @media only screen and (max-device-width: 400px) {
-    .home-section {
-        width: 100%;
-    }
-    .article-header {
-        font-size: 4.3em;
-    }
-    .extra-margin {
-        margin-top: 16px;
-    }
-    .article-title {
-        font-size: 3.5em;
-    }
-    #secondary-article {
-        font-size: 3em;
-    }
-    p {
-        font-size: 2.2em;
-    }
-    .discription {
-        font-size: 2.2em;
-    }
-} */

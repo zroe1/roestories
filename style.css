@@ -1,50 +1,46 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    /* background-color: rgb(250, 247, 245); */
-    /* padding: 0px; */
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .img1 {
-    opacity: 100%;
+  opacity: 100%;
 }
 .img2 {
-    opacity: 0%;
+  opacity: 0%;
 }
 .img3 {
-    opacity: 0%;
+  opacity: 0%;
 }
 
 .fadeOut {
-    /* border: red 5px solid; */
-    animation: openA1 3s forwards;
+  animation: openA1 3s forwards;
 }
 
 .fadeIn {
-    /* border: blue 5px solid; */
-    animation: OpenA2 3s forwards;
+  animation: OpenA2 3s forwards;
 }
 @keyframes openA1 {
-    0% {opacity: 100%;}
-    100% {opacity: 0%;}
+  0% {opacity: 100%;}
+  100% {opacity: 0%;}
 }
 
 @keyframes OpenA2 {
-    0% {opacity: 0%;}
-    100% {opacity: 100%;}
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
 }
 
 .mobile-only {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-device-width: 600px) {
-    .mobile-only {
-        display: block;
-    }
+  .mobile-only {
+    display: block;
+  }
 }

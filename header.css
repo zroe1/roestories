@@ -19,20 +19,15 @@ header {
   font-weight: 600;
   font-size: 30px;
 }
-/* .header-sub-text {
-    font-family: 'Crimson Text', serif;
-    font-size: 30px;
-    font-weight: 400;
-} */
 
 .header-nav {
-    height: 50px;
-    width: 100vw;
-    max-width: 1175px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
-    align-items: center;
+  height: 50px;
+  width: 100vw;
+  max-width: 1175px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  align-items: center;
 }
 
 .header-link {
@@ -48,12 +43,12 @@ header {
   width: 100vw;
   margin: 1px;
   padding-left: 7px;
-  /* line-height: 90%; */
 }
 
 .mobile-menu {
   display: none;
 }
+
 .mobile-menu-line {
   height: 3px;
   width: 90%;
@@ -61,14 +56,17 @@ header {
   background-color: black;
   transform: rotate(0deg);
 }
+
 #top {
   position: absolute;
   top: 25%;
 }
+
 #mid {
   position: absolute;
   top: 50%;
 }
+
 #low {
   position: absolute;
   top: 75%;
@@ -90,6 +88,7 @@ header {
 .menuAnimate5 {
   animation: menuBoxAnimate5 0.7s forwards;
 }
+
 /* Animations for when user clicks dropdown menu */
 @keyframes menuBoxAnimate1 {
   50% {top: 50%;}
@@ -122,9 +121,11 @@ header {
 }
 
 @media only screen and (max-width: 950px) {
+
   .header-link {
     display: none;
   }
+
   .mobile-menu {
     display: block;
     position: absolute;
@@ -133,13 +134,16 @@ header {
     width: 5vw;
     height: 5vw;
   }
+
   #mobile-title-text {
     padding-left: 20px;
     display: block;
   }
+
   header {
     height: 7vw;
   }
+
 }
 @media only screen and (max-width: 600px) {
   header {
@@ -156,21 +160,26 @@ header {
 }
 
 @media only screen and (max-device-width: 600px) {
+
   .header-link {
     display: none;
   }
+
   header {
     height: 10em;
     display: block;
   }
+
   #mobile-title-text {
     padding-left: 20px;
     display: block;
     font-size: 8em;
   }
+
   .mobile-menu-line {
     height: 5px;
   }
+
   .mobile-menu {
     display: block;
     position: absolute;
@@ -179,6 +188,7 @@ header {
     width: 6em;
     height: 6em;
   }
+
 }
 
 .mobile-dropdown {
@@ -186,6 +196,7 @@ header {
   width: 100vw;
   height: calc(100vh - 10em);
 }
+
 .inner-mobile-dropdown {
   width: 100vw;
   height: 100%;
