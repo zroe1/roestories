@@ -38,3 +38,13 @@ h1 {
     0% {opacity: 0%;}
     100% {opacity: 100%;}
 }
+
+.mobile-only {
+    display: none;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .mobile-only {
+        display: block;
+    }
+}
