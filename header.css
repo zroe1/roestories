@@ -23,7 +23,7 @@ header {
 .header-nav {
   height: 50px;
   width: 100vw;
-  max-width: 1175px;
+  max-width: 1000px;
   display: flex;
   justify-content: space-around;
   font-size: 15px;
