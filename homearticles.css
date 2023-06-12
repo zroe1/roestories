@@ -114,11 +114,14 @@
   }
 
   .article-title {
-    margin-top: 8px;
+    margin-top: 12px;
     font-size: 4.1em;
+    margin-bottom: 10px;
   }
 
   #secondary-article {
+    margin-top: 22px;
+    margin-bottom: 22px;
     font-size: 3.4em;
     font-weight: 600;
   }
