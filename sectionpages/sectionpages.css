@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+
+.section-header {
+    font-family: 'Crimson Text', serif;
+    width: 100vw;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.section-header-horizontal-line {
+    width: 60vw;
+    margin-left: 20vw;
+    height: 2px;
+    background-color: black;
+}
+
+.bottom-container {
+    width: 70vw;
+    padding-top: 5px;
+    margin-left: 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
+@media only screen and (max-device-width: 600px) {
+
+    .section-header {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 5.5em;
+    }
+
+    .section-header-horizontal-line {
+        width: 85vw;
+        margin-left: 7.5vw;
+        /* height: 2px;
+        background-color: black; */
+    }
+
+    .bottom-container {
+        width: 85vw;
+        margin-left: 7.5vw;
+        flex-direction: column;
+      }
+
+}

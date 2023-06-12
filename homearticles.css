@@ -82,6 +82,21 @@
   border-radius: 2px;
 }
 
+.view-all-link {
+  text-decoration: None;
+  color: white;
+}
+
+.view-all-link:hover {
+  text-decoration: none;
+}
+
+.part-num {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 /* .view-all:hover {
   border: solid black 1px;
   background: white;
@@ -114,16 +129,27 @@
   }
 
   .article-title {
-    margin-top: 12px;
+    margin-top: 16px;
     font-size: 4.1em;
     margin-bottom: 15px;
   }
 
   #secondary-article {
-    margin-top: 22px;
-    margin-bottom: 22px;
+    margin-top: 29px;
+    margin-bottom: 29px;
     font-size: 3.4em;
     font-weight: 600;
+  }
+
+  .part-num {
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+  }
+
+  .part1 {
+    font-size: 1.3em;
   }
 
   p {
@@ -132,11 +158,16 @@
 
   .discription {
     font-size: 2.8em;
+    margin-bottom: 29px;
   }
 
   .home-article-horizontal-line {
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .view-all-link {
+    color: black
   }
 
 }
