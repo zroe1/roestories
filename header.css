@@ -167,6 +167,7 @@ header {
 
   header {
     height: 10em;
+    margin: 0px;
     display: block;
   }
 
