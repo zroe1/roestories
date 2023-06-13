@@ -42,7 +42,7 @@
 }
 
 .article-title {
-  margin: 2px 2px 0px 2px;
+  margin: 5px 2px 0px 2px;
   font-family: 'Crimson Text', serif;
   font-size: 22px;
   line-height: 100%;
@@ -58,6 +58,8 @@
 
 #secondary-article {
   font-size: 18px;
+  margin-bottom: 7px;
+  margin-top: 7px;
 }
 
 .other-story {
@@ -65,7 +67,7 @@
 }
 
 .discription {
-  margin: 5px 2px 2px 2px;
+  margin: 5px 2px 7px 2px;
   font-size: 15px;
 }
 
