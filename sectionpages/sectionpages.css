@@ -36,24 +36,24 @@
 
      .section-header {
         margin-top: 20px;
-        margin-left: 7.5vw;
+        margin-left: 5vw;
         margin-bottom: 10px;
-        font-size: 5em;
+        font-size: 5.5em;
         text-align:left;
         width: auto;
 
     } 
 
     .section-header-horizontal-line {
-        width: 85vw;
-        margin-left: 7.5vw;
+        width: 90vw;
+        margin-left: 5vw;
         height: 2px;
         background-color: black;
     }
 
     .bottom-container {
-        width: 85vw;
-        margin-left: 7.5vw;
+        width: 90vw;
+        margin-left: 5vw;
         flex-direction: column;
       }
 
