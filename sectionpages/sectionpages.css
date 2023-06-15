@@ -2,26 +2,28 @@
 
 .section-header {
     font-family: 'Crimson Text', serif;
-    width: 100vw;
-    text-align: center;
-    font-size: 40px;
-    margin-top: 10px;
+    /* width: 100vw; */
+    /* text-align: center; */
+    font-size: 43px;
+    margin-left: calc(17.5vw + 10px);
+    margin-top: 18px;
     margin-bottom: 5px;
 }
 
 .section-header-horizontal-line {
-    width: 60vw;
-    margin-left: 20vw;
-    height: 2px;
+    width: 65vw;
+    margin-left: 17.5vw;
+    height: 1.5px;
     background-color: black;
 }
 
 .bottom-container {
-    width: 70vw;
+    width: 65vw;
+    /* min-width: 1100px; */
     padding-top: 5px;
-    margin-left: 15vw;
-    display: flex;
-    justify-content: space-between;
+    margin-left: 17.5vw;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
 .displayNone {
@@ -30,6 +32,72 @@
 
 .displayBlock {
     display: block;
+}
+
+.section-page-img {
+    width: 30vw;
+  }
+
+.article-title {
+    font-size: 28px;
+}
+
+.discription-link {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.discription {
+    font-size: 17px;
+}
+
+.part-num {
+    font-size: 18px;
+}
+
+.section-article-horizontal-line {
+    width: 60%;
+    height: 1.5px;
+    margin: 10px 0px 10px 0px;
+    background-color: black;
+}
+
+@media only screen and (min-device-width: 600px) {
+    .home-article {
+        display: flex;
+        /* min-width: 1000px; */
+    }
+    .section-page-img {
+        padding: 10px;
+        margin-right: 20px;
+        /* min-width: 300px; */
+    }
+
+    .section-sidebar {
+        padding: 20px 35px 0px 0px;
+        
+    }
+    .bottom-container {
+        width: 65vw;
+        /* min-width: 1000px; */
+        padding-top: 5px;
+        margin-left: 17.5vw;
+    }
+}
+
+@media only screen and (min-device-width: 1270px) {
+
+    .section-page-img {
+        min-width: 346px;
+    }
+    .bottom-container {
+        min-width: 750px;
+    }
+
+    .section-header-horizontal-line {
+        min-width: 750px;
+    }
 }
 
 @media only screen and (max-device-width: 600px) {
@@ -56,5 +124,35 @@
         margin-left: 5vw;
         flex-direction: column;
       }
+
+    .home-article {
+        display: block;
+    }
+
+    .section-page-img {
+        width: 100%;
+    }
+
+    .article-title {
+        margin-top: 16px;
+        font-size: 4.1em;
+        margin-bottom: 0px;
+      }
+
+      .discription-link {
+        font-size: 2.8em;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+
+      .discription {
+        font-size: 2em;
+        margin-top: 25px;
+        margin-bottom: 39px;
+      }
+
+      .part-num {
+        font-size: 1em;
+    }
 
 }
