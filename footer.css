@@ -44,11 +44,19 @@ footer {
 }
 
 .footer-text {
+  display: block;
   font-family: 'Crimson Text', serif;
   font-weight: 400;
   font-size: 17px;
   margin: 5px;
+  color: black;
+  text-decoration: none;
 }
+
+/* .footer-text {
+  color: black;
+  text-decoration: none;
+} */
 
 .footer-email {
   font-family: 'Crimson Text', serif;
@@ -66,6 +74,16 @@ footer {
   font-weight: 600;
   font-size: 14px;
   margin: 10px;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-discription {
+    display: none;
+  }
 }
 
 @media only screen and (max-device-width: 600px) {
@@ -101,6 +119,14 @@ footer {
   .bottom-footer-text {
     font-size: 2.1em;
     margin: 15px;
+  }
+
+  .footer-discription {
+    display: block;
+  }
+
+  .mobile-only {
+    display: block;
   }
 
 }
