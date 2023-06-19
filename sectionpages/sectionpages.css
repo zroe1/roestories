@@ -101,6 +101,12 @@
     background-color: black;
 }
 
+.star {
+    font-weight: 300;
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+
 @media only screen and (min-device-width: 600px) {
     .home-article {
         display: flex;
@@ -223,6 +229,16 @@
         font-size: 2.7em;
         margin-top: 25px;
         margin-bottom: 39px;
+      }
+
+      .star {
+        /* font-weight: 300; */
+        font-size: 0.9em;
+        /* font-family: sans-serif; */
+      }
+
+      #award {
+        font-size: 1.8em;
       }
 
       .about-discription {
