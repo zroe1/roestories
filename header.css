@@ -195,12 +195,12 @@ header {
 .mobile-dropdown {
   display: none;
   width: 100vw;
-  height: calc(100vh - 10em);
+  height: calc(100vh - 5em);
 }
 
 .inner-mobile-dropdown {
   width: 100vw;
-  height: 100%;
+  height: 98%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -210,6 +210,7 @@ header {
 .mobile-menu-link {
   margin: 0px;
   font-size: 25px;
+  padding-left: 20px;
 }
 
 @media only screen and (max-device-width: 600px) {
@@ -217,5 +218,10 @@ header {
     margin: 0px;
     font-size: 3.4em;
     padding-left: 40px;
+  }
+  .mobile-dropdown {
+    display: none;
+    width: 100vw;
+    height: calc(100vh - 10em);
   }
 }

@@ -1,6 +1,7 @@
 let menu = document.getElementById('mobileMenu');
 let mobilemenu = document.getElementById('mobileDropdown');
 let main = document.getElementById('main');
+let footer = document.getElementById('footer');
 
 let menutop = document.getElementById('top');
 let menumid = document.getElementById('mid');
@@ -25,8 +26,10 @@ function displayMenu(){
         menulow.classList.add("menuAnimate2");
         mobilemenu.classList.remove('displayNone');
         main.classList.remove("displayBlock");
+        footer.classList.remove("displayBlock");
         mobilemenu.classList.add('displayBlock');
         main.classList.add("displayNone");
+        footer.classList.add("displayNone");
         is_mobile_menu_open = true;
     } else {
         // menutop.classList.add("menuAnimate5");
@@ -42,8 +45,10 @@ function displayMenu(){
 
         mobilemenu.classList.remove('displayBlock');
         main.classList.remove("displayNone");
+        footer.classList.remove("displayNone");
         mobilemenu.classList.add('displayNone');
-        main.classList.add("displayBlock")
+        main.classList.add("displayBlock");
+        footer.classList.add("displayBlock");
         is_mobile_menu_open = false;
     }
 }
