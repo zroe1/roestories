@@ -26,7 +26,7 @@ function displayMenu(){
         menulow.classList.add("menuAnimate2");
         mobilemenu.classList.remove('displayNone');
         main.classList.remove("displayBlock");
-        footer.classList.remove("displayBlock");
+        footer.classList.remove("displayFlex");
         mobilemenu.classList.add('displayBlock');
         main.classList.add("displayNone");
         footer.classList.add("displayNone");
@@ -48,7 +48,7 @@ function displayMenu(){
         footer.classList.remove("displayNone");
         mobilemenu.classList.add('displayNone');
         main.classList.add("displayBlock");
-        footer.classList.add("displayBlock");
+        footer.classList.add("displayFlex");
         is_mobile_menu_open = false;
     }
 }
