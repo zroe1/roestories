@@ -35,6 +35,7 @@ h1 {
 .fadeIn {
   animation: OpenA2 3s forwards;
 }
+
 @keyframes openA1 {
   0% {opacity: 100%;}
   100% {opacity: 0%;}
