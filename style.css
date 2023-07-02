@@ -9,6 +9,15 @@ h1 {
   margin: 0px;
 }
 
+.h1-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+.h1-link:hover {
+    text-decoration: none;
+}
+
 .img1 {
   opacity: 100%;
 }
