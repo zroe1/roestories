@@ -261,6 +261,7 @@
 
     .section-extra-margin-bottom {
         margin-bottom: 40px;
+        height: 5px;
     }
 
 }
