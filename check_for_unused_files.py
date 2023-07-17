@@ -9,7 +9,7 @@ def get_all_paths(current_path , all_files):
     directories = []
 
     for file in in_dir:
-        if os.path.isdir(file):
+        if os.path.isdir(current_path + '/' + file):
             directories.append(current_path + '/' +  file)
         
         for ending in VALID_FILE_ENDINGS:
@@ -19,7 +19,8 @@ def get_all_paths(current_path , all_files):
 
     all_files += files_in_dir
     for directory in directories:
-        get_all_paths(directory, all_files)
+        if not '.git' in directory:
+            get_all_paths(directory, all_files)
 
 def trim_file_path(file_path: str) -> str:
     assert file_path[0:2] == './', 'file path must start with "./"'
