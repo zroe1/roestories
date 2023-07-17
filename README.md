@@ -6,4 +6,10 @@
 
 This is a portfolio website for my dad, featuring all his work from the over 30 years he spent in journalism. The site features an intuitive user interface for searching through a large volume of work.
 
-The site can be found at: https://roestories.com/. It is hosted by netlify.
+The site can be found at: https://roestories.com/.
+
+## Resources and sources
+
+<b>Netlify: </b>the site is hosted by netlify
+
+<b>W3 Schools: </b>The page linked [here](https://www.w3schools.com/howto/howto_js_slideshow.asp/) was refereced to make the slideshow on the homepage
