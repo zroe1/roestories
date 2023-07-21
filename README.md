@@ -9,7 +9,14 @@ This is a portfolio website for my dad, featuring all his work from the over 30 
 The site can be found at: https://roestories.com/.
 
 ## Resources and sources
-
-<b>Netlify: </b>the site is hosted by netlify
-
-<b>W3 Schools: </b>The page linked [here](https://www.w3schools.com/howto/howto_js_slideshow.asp/) was refereced to make the slideshow on the homepage
+<ul>
+  <li>
+    <b>Netlify: </b>the site is hosted by netlify
+  </li>
+  <li>
+    <b>W3 Schools: </b>The page linked <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp/">here</a> was refereced to make the slideshow on the homepage
+  </li>
+  <li>
+    <b>Unused file finder: </b> Because there are so many files to manage, I created a tool for finding unused files in this repository by recursively searching folders and checking which files link to eachother. The code for this is titled 'check_for_unused_files.py' in this repository and has been open sourced in a seperate repository linked <a href="https://github.com/zroe1/findUnusedFilesHTML">here</a> with further information.
+  </li>
+</ul>
