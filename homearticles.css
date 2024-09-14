@@ -3,12 +3,18 @@
 .home-section {
   width: 22vw;
 }
+
 .article-header {
   font-family: 'Crimson Text', serif;
   font-weight: 700;
   font-size: 29px;
   margin-top: 7px;
   margin-bottom: 0px;
+}
+
+.article-header-link {
+  text-decoration: none;
+  color: black;
 }
 
 .extra-margin {
